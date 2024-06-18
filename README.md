@@ -12,7 +12,7 @@ Welcome to my GitHub profile!
 
 ## 🙋🏾 About Me
 
-- 🔭 I’m currently working on [Scientific journals portal](revistas.up.ac.pa)
+- 🔭 I’m currently working on [Scientific journals portal]([revistas.up.ac.pa](https://github.com/pkp/ojs))
 
 - 🌱 I’m currently learning **Data Science**
 
