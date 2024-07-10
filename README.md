@@ -93,3 +93,41 @@ Welcome to my GitHub profile!
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=edgarjp006&show_icons=true&locale=en" alt="edgarjp006" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=edgarjp006&" alt="edgarjp006" /></p>
+
+    <style type="text/css">
+      @font-face {
+	    font-family: 'BDCartoonShoutRegular';
+        src: url('https://raw.githubusercontent.com/EdgarJP006/EdgarJP006/main/assets/fonts/BD_Cartoon_Shout-webfont.ttf') format('truetype');
+	    font-weight: normal;
+	    font-style: normal;
+      }
+      #pacman {
+        height:450px;
+        width:342px;
+        margin:20px auto;
+      }
+      #shim { 
+        font-family: BDCartoonShoutRegular; 
+        position:absolute;
+        visibility:hidden
+      }
+      h1 { font-family: BDCartoonShoutRegular; text-align:center; }
+      body { width:342px; margin:0px auto; font-family:sans-serif; }
+      a { text-decoration:none; }
+    </style>
+ <div id="pacman"></div>
+  <script src="https://raw.githubusercontent.com/EdgarJP006/EdgarJP006/main/js/pacman.js"></script>
+  <script src="https://raw.githubusercontent.com/EdgarJP006/EdgarJP006/main/js/modernizr-1.5.min.js"></script>
+
+  <script>
+
+    var el = document.getElementById("pacman");
+
+    if (Modernizr.canvas && Modernizr.localstorage && 
+        Modernizr.audio && (Modernizr.audio.ogg || Modernizr.audio.mp3)) {
+      window.setTimeout(function () { PACMAN.init(el, "./"); }, 0);
+    } else { 
+      el.innerHTML = "Sorry, needs a decent browser<br /><small>" + 
+        "(firefox 3.6+, Chrome 4+, Opera 10+ and Safari 4+)</small>";
+    }
+  </script>
