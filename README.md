@@ -7,7 +7,9 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=edgarjp006&label=Profile%20views&color=0e75b6&style=flat" alt="edgarjp006" /> </p>
 
 <p align="left"> 
-[![trophy](https://github-profile-trophy.vercel.app/?username=edgarjp006)](https://github.com/edgarjp006/github-profile-trophy)
+<a href="https://github.com/EdgarJP006">
+  <img width=800 src="https://github-profile-trophy.vercel.app/?username=edgarjp006&column=10&no-frame=true"/>
+</a>
 Welcome to my GitHub profile!
 
 ## 🙋🏾 About Me
