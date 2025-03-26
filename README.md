@@ -9,7 +9,7 @@
 <p align="left"> 
 <a href="https://github.com/EdgarJP006">
   <img width=800 src="https://github-profile-trophy.vercel.app/?username=edgarjp006&column=10&no-frame=true"/>
-</a>
+</a><br>
 Welcome to my GitHub profile!
 
 ## 🙋🏾 About Me
